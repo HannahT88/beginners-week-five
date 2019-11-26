@@ -5,3 +5,8 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+.custom-carousel {
+  width: 400px;
+  height: 50px;
+}
