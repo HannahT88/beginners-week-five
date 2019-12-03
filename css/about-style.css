@@ -1,4 +1,4 @@
-styles.css:
+about-style.css:
 body {
 padding: 5rem;
 }
@@ -25,6 +25,13 @@ padding: 5rem;
   width: 600px;
   height: 400px;
 }
+#column-styles {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  color: red;
+}
+
 #column-styles {
   display: flex;
   justify-content: center;
