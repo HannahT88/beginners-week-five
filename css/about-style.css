@@ -23,21 +23,31 @@ background-color: #BEE5FA;
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
+  padding-left: 50px;
+
 
 }
 .main-title {
-  font-family: 'Courier New';
+  font-family: fantasy;
   font-size: 50px;
-  font-weight: bold;
-  color: blue;
+  color: #500C8F;
 
 }
 .main-subheading{
-  font-family: 'serif';
-  font-size: 30px;
+  font-family: fantasy;
+  font-size: 20px;
 
-  color: black;
+  color: #5406bF;
 }
+
+
+.about-title {
+  font-family: fantasy;
+  font-size: 20px;
+  color: #500C8F;
+  align-items: flex-start;
+}
+
 
 .carousel-container{
   display: flex;
@@ -74,6 +84,7 @@ background-color: #BEE5FA;
   height: 200px;
   width: 200px;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .col{
