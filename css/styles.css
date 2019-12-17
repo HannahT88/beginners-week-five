@@ -53,6 +53,11 @@ background-color: #BEE5FA;
   width: 100%;
   height: 100%;
 }
+
+#custom-row {
+  justify-content: center;
+}
+
 #column-styles {
   display: flex;
   justify-content: center;

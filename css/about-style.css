@@ -21,11 +21,10 @@ background-color: #BEE5FA;
   display: flex;
   flex: 1;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   padding-top: 30px;
-  padding-left: 50px;
-
-
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .main-title {
   font-family: fantasy;
@@ -45,7 +44,9 @@ background-color: #BEE5FA;
   font-family: fantasy;
   font-size: 20px;
   color: #500C8F;
-  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  padding-top :10px;
 }
 
 
@@ -80,8 +81,12 @@ background-color: #BEE5FA;
 
 }
 
+#custom-row {
+  justify-content: center;
+}
+
 .image-link{
-  height: 200px;
+  height: 300px;
   width: 200px;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -91,4 +96,15 @@ background-color: #BEE5FA;
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.about-us-container{
+  display: flex;
+  justify-content: center;
+}
+
+.list-container{
+  display: flex;
+  justify-content: center;
+  text-align: left;
 }
